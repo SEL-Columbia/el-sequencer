@@ -10,15 +10,43 @@ html, body {
 }
 
 
+.controls {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+}
+.controls_btn {
+    display: inline-block;
+    color: black;
+    background: white;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.controls_step {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    background: white;
+    margin: 0 25px;
+}
+
+
 #map {
     height: 100%;
 }
 
 
 .edge {
-    stroke: grey;
+    stroke: white;
 }
 
 .edge.active {
-    stroke: pink;
+    stroke: black;
 }
+
+
